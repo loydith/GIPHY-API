@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>griphy project</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <script src="javascript.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- Create a banner with bootstrap -->
+  <div class="container">
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">The 10 top actresses of the world</h1> 
+          </div>
+        </div>
+    
+<!-- dinamic button  -->
+      <div id="actresses-buttons">
+      </div>
+
+<!-- form where you type the new actress and submit -->
+      <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <form id="formulario">
+              <label for="actressInput">Add an actress</label>
+              <input type="text" id="actressInput"><br>
+              <input id="sumbitActress" type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+      </div>
+  
+<!-- Increment actress -->
+    <div id="actresses">
+     </div>
+
+  </div>
+
+  
+</body>
+</html>
+
+
+
+
